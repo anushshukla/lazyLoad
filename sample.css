@@ -1,0 +1,29 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.random-sections { 
+    min-height: 400px;
+}
+section {
+    border: 1px solid black;
+}
+.responsive {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.image-container { 
+    display: flex;
+    justify-content: center; /* horizontal centering */
+}
+/* main {
+    height: 1200px;
+    overflow: scroll;
+} */

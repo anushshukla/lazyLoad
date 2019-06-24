@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="sample.css">
+        <script src="lazyLoad.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Header</h1>
+        </header>
+        <main>
+            <section class="random-sections">
+                Some content here
+            </section>
+            <section class="random-sections">
+                Another random content here
+            </section>
+            <section class="random-sections">
+                Last random content here
+            </section>
+            <div class="lazy-load">
+                <template>
+                    <section class="random-sections">
+                        <h2>Image Section</h2>
+                        <span class="image-container">
+                            <img class="responsive" height="300" src="https://homepages.cae.wisc.edu/~ece533/images/airplane.png" />
+                        </span>
+                    </section>
+                </template>
+            </div>
+            <div class="lazy-load">
+                <template>
+                    <section>
+                        <h2>Video Section</h2>
+                        <video controls>
+                            <source src=http://techslides.com/demos/sample-videos/small.webm type=video/webm />
+                            <source src=http://techslides.com/demos/sample-videos/small.ogv type=video/ogg />
+                            <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4 />
+                            <source src=http://techslides.com/demos/sample-videos/small.3gp type=video/3gp />
+                        </video>
+                    </section>
+                </template>
+            </div>
+        </main>
+        <footer>Fixed floating stick footer</footer>
+        <script src="template.js"></script>
+    </body>
+</html>
